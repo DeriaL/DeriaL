@@ -90,7 +90,7 @@ idempotent and observable. That is most of the actual work.
 
 ## Also public
 
-[�aria-os`](https://github.com/DeriaL/aria-os) — AI assistant as a browser-based OS shell ·
+[`aria-os`](https://github.com/DeriaL/aria-os) — AI assistant as a browser-based OS shell ·
 [`BOT_TRAINER`](https://github.com/DeriaL/BOT_TRAINER) — Telegram training bot ·
 [`Synelo-Hotel-Ryzlink`](https://github.com/DeriaL/Synelo-Hotel-Ryzlink) — booking front-end ·
 [`ArmaRep`](https://github.com/DeriaL/ArmaRep) — site template
