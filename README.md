@@ -124,17 +124,28 @@ is allowed to go live.
 >
 > Taking on AI automation, AI product and web work — [synelostudio.com](https://www.synelostudio.com)
 
-<details>
-<summary>Contribution activity</summary>
+## Activity
 
-<br/>
+<div align="center">
 
-Most of my commits are in private repositories, so the graph is a rough signal rather
-than the whole picture.
+<img
+  src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/stats.svg"
+  alt="1,854 contributions in 2026 · 110 active days · 33 repositories · 20+ systems in production"
+  width="100%"
+/>
 
-<img src="https://ghchart.rshah.org/38BDF8/DeriaL" width="100%" alt="Contribution calendar for the last year"/>
+<br/><br/>
 
-</details>
+<img
+  src="https://ghchart.rshah.org/38BDF8/DeriaL"
+  alt="Contribution calendar for the last twelve months"
+  width="100%"
+/>
+
+</div>
+
+Roughly every second day has a commit on it, and almost all of them land in private
+repositories — the calendar shows the rhythm, the numbers above show the volume.
 
 ---
 
