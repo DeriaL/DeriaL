@@ -8,7 +8,7 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:3B82F6,100:8B5CF6&height=170&section=header&text=Ivan%20Husar&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Founder%20%26%20AI%20Engineer%20%C2%B7%20Synelo%20Studio%20%C2%B7%20Prague&descAlignY=60&descSize=15"
+  src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/banner.svg"
   alt="Ivan Husar — Founder and AI Engineer at Synelo Studio, Prague"
   width="100%"
 />
