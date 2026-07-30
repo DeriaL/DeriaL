@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Ivan Husar — Founder and AI Engineer at Synelo Studio, Prague">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.12" r="0.75">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#bg)"/>
+  <rect width="1200" height="200" fill="url(#glow)"/>
+
+  <path d="M0 132 C 150 96, 300 168, 450 138 C 600 108, 750 172, 900 142 C 1020 118, 1110 152, 1200 136 L1200 200 L0 200 Z" fill="url(#wave)"/>
+  <path d="M0 158 C 170 128, 320 190, 470 164 C 640 134, 780 194, 940 170 C 1050 154, 1130 176, 1200 164 L1200 200 L0 200 Z" fill="#ffffff" fill-opacity="0.10"/>
+
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="92" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="0.5">Ivan Husar</text>
+    <text x="600" y="126" font-size="17" font-weight="500" fill="#ffffff" fill-opacity="0.88" letter-spacing="1.1">Founder &amp; AI Engineer &#183; Synelo Studio &#183; Prague</text>
+  </g>
+</svg>
