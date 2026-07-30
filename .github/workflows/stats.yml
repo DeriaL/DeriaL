@@ -1,0 +1,50 @@
+# Place at: .github/workflows/stats.yml
+# Needs repo secret STATS_TOKEN — classic PAT, scopes: read:user + repo
+# (repo scope is what makes private contributions countable)
+
+name: Stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-stats.mjs"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Render stats.svg and chart.svg
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: node scripts/generate-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain stats.svg chart.svg)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add stats.svg chart.svg
+            git commit -m "chore: refresh profile stats"
+            git push
+          else
+            echo "No change in stats.svg / chart.svg"
+          fi
