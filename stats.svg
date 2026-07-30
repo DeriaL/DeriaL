@@ -1,9 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="1854 contributions in 2026, 110 active days, 33 repositories, 20+ production systems shipped">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="1,896 contributions all time, 1,890 in the last twelve months, 107 active days, longest streak 16 days, busiest day 144">
+
   <defs>
     <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0E7490"/>
       <stop offset="50%" stop-color="#1D4ED8"/>
       <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.55"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
@@ -15,25 +20,22 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
   </defs>
-
   <rect width="1200" height="150" rx="14" fill="url(#band)"/>
   <rect width="1200" height="150" rx="14" fill="url(#sheen)"/>
-
-  <rect x="300" y="30" width="1.5" height="90" fill="url(#rule)"/>
-  <rect x="600" y="30" width="1.5" height="90" fill="url(#rule)"/>
-  <rect x="900" y="30" width="1.5" height="90" fill="url(#rule)"/>
-
+  <rect x="240.0" y="30" width="1.5" height="90" fill="url(#rule)"/>
+  <rect x="480.0" y="30" width="1.5" height="90" fill="url(#rule)"/>
+  <rect x="720.0" y="30" width="1.5" height="90" fill="url(#rule)"/>
+  <rect x="960.0" y="30" width="1.5" height="90" fill="url(#rule)"/>
   <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
-    <text x="150" y="78" font-size="46" font-weight="700" fill="#ffffff">1,854</text>
-    <text x="150" y="104" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.5">CONTRIBUTIONS IN 2026</text>
-
-    <text x="450" y="78" font-size="46" font-weight="700" fill="#ffffff">110</text>
-    <text x="450" y="104" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.5">ACTIVE DAYS</text>
-
-    <text x="750" y="78" font-size="46" font-weight="700" fill="#ffffff">33</text>
-    <text x="750" y="104" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.5">REPOSITORIES</text>
-
-    <text x="1050" y="78" font-size="46" font-weight="700" fill="#ffffff">20+</text>
-    <text x="1050" y="104" font-size="13" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.5">SYSTEMS IN PRODUCTION</text>
+    <text x="120.0" y="78" font-size="42" font-weight="700" fill="#ffffff">1,896</text>
+    <text x="120.0" y="104" font-size="12" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.4">TOTAL CONTRIBUTIONS</text>
+    <text x="360.0" y="78" font-size="42" font-weight="700" fill="#ffffff">1,890</text>
+    <text x="360.0" y="104" font-size="12" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.4">LAST 12 MONTHS</text>
+    <text x="600.0" y="78" font-size="42" font-weight="700" fill="#ffffff">107</text>
+    <text x="600.0" y="104" font-size="12" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.4">ACTIVE DAYS</text>
+    <text x="840.0" y="78" font-size="42" font-weight="700" fill="#ffffff">16</text>
+    <text x="840.0" y="104" font-size="12" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.4">LONGEST STREAK</text>
+    <text x="1080.0" y="78" font-size="42" font-weight="700" fill="#ffffff">144</text>
+    <text x="1080.0" y="104" font-size="12" font-weight="500" fill="#ffffff" fill-opacity="0.80" letter-spacing="1.4">BUSIEST DAY</text>
   </g>
 </svg>
