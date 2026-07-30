@@ -168,9 +168,9 @@ technical file, the client signs their own declaration.
 > through architecture, screen recordings and trade-offs on a call.
 
 > [!TIP]
-> **Studio has capacity for new engagements** — fixed price, fixed date, from €490.
-> I'm also open to senior engineering / AI architecture roles and to partnerships
-> where the two sides compound.
+> **The studio has capacity for new engagements** — fixed price, fixed ship date,
+> from €490. Name the process that's eating your team's week and I'll tell you
+> what it costs to make it stop: [synelostudio.com](https://www.synelostudio.com)
 
 ## Activity
 
