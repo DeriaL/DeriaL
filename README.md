@@ -130,7 +130,15 @@ is allowed to go live.
 
 <img
   src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/stats.svg"
-  alt="1,854 contributions in 2026 · 110 active days · 33 repositories · 20+ systems in production"
+  alt="Total commits, contributions in the last year, active days, longest streak and repository count"
+  width="100%"
+/>
+
+<br/><br/>
+
+<img
+  src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/chart.svg"
+  alt="Contributions per month over the last twelve months"
   width="100%"
 />
 
@@ -144,8 +152,9 @@ is allowed to go live.
 
 </div>
 
-Roughly every second day has a commit on it, and almost all of them land in private
-repositories — the calendar shows the rhythm, the numbers above show the volume.
+Almost all of these commits land in private repositories. The numbers are generated
+from the GitHub GraphQL API by [a script in this repo](scripts/generate-stats.mjs)
+and redrawn every night — nothing here is hand-typed or served by a third party.
 
 ---
 
