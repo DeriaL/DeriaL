@@ -1,7 +1,8 @@
 <!-- ═══════════════════════════════════════════════════════════════════
      PROFILE README  ·  github.com/DeriaL
-     Repo: DeriaL/DeriaL  (public, name matches the handle)
-     No GitHub Actions or tokens needed — nothing here can break.
+     Repo: DeriaL/DeriaL — must stay PUBLIC or the profile renders blank.
+     Every other repo is private, so this file links to live products
+     instead of source. No Actions, no tokens, nothing that can break.
      ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -20,9 +21,9 @@
 </div>
 
 I build **AI-driven products that have to make money** — not demos. Over the last
-year that meant a commercial security scanner with real billing, and a four-system
-growth platform that finds leads, writes the outreach, publishes the content and
-reports its own unit economics.
+year that meant a commercial security scanner with real billing, a four-system
+growth platform that finds leads and reports its own unit economics, and a course
+product selling into the Czech market.
 
 Mostly **Next.js + TypeScript**, **Claude API** for the reasoning layer,
 **Supabase / Postgres** underneath, and **Three.js** when the interface is the pitch.
@@ -31,9 +32,15 @@ Mostly **Next.js + TypeScript**, **Claude API** for the reasoning layer,
 > **Available for fullstack and AI automation work** — Prague or remote,
 > full-time or project-based. Reach me at **gusarivan21@gmail.com**.
 
-## What I'm building
+> [!IMPORTANT]
+> **My repositories are private.** All of it is commercial client and product
+> work, so the source stays closed. Instead of code, this page links to the
+> **things actually running in production** — and I'm glad to walk through
+> architecture, decisions and screen recordings on a call.
 
-### 🛡 Bryxe Shield · *private*
+## What I've built
+
+### 🛡 Bryxe Shield
 
 Security and compliance scanner for AI-generated code — the problem nobody had
 three years ago and everybody has now.
@@ -48,10 +55,10 @@ error tracking, migrations.
 
 `Next.js` · `Claude API` · `Prisma` · `Stripe` · `Resend` · `Sentry`
 
-### ⚙️ Synelo — four systems and one command centre · *private*
+### ⚙️ Synelo — four systems and one command centre
 
-An end-to-end growth platform I built for my own studio. Each part is a product;
-together they close the loop from stranger to paying client.
+An end-to-end growth platform I built for [Synelo Studio](https://www.synelostudio.com).
+Each part is a product; together they close the loop from stranger to paying client.
 
 | System | What it does |
 |---|---|
@@ -62,15 +69,26 @@ together they close the loop from stranger to paying client.
 
 `Next.js 15` · `Claude API` · `Gemini` · `Supabase` · `Google Places` · `next-intl`
 
-### 🎨 [VECTRA ACADEMY](https://github.com/DeriaL/Academy) · *public*
+### 🎓 [Synelo Academy](https://synelo-academy.com) · live
 
-WebGL landing for a digital-skills academy. Six tracks, six **procedurally
-generated** 3D scenes — built from Three.js primitives, no paid assets and no
-downloaded models. Scroll drives a GSAP timeline through Lenis.
+Course product teaching an AI profession — sites, automations, content — sold into
+the Czech and EU market with a bilingual CS/EN funnel.
+
+The landing is a WebGL experience: six tracks, six **procedurally generated** 3D
+scenes built from Three.js primitives, no paid assets and no downloaded models.
+Scroll drives a GSAP timeline through Lenis.
 
 `react-three-fiber` · `drei` · `postprocessing` · `GSAP` · `Lenis`
 
-### 🧠 [AIRichLife](https://github.com/DeriaL/airichlife) · *public*
+### 🏨 [Hotel Ryzlink](https://synelo-hotel-ryzlink.vercel.app) · live demo
+
+Concept prototype for a boutique hotel in Mikulov, built to show a real Czech
+client what AI automation looks like applied to their business — booking flow,
+packages, wine wellness, tastings, CS/EN.
+
+`Next.js` · `JavaScript` · `i18n`
+
+### 🧠 AIRichLife
 
 AI business-automation platform aimed at European SMBs. 21 AI services, 7 demo
 types, an admin dashboard, **25-language i18n** and **624+ programmatic SEO pages** —
@@ -120,20 +138,17 @@ logged and re-runnable. That is most of the actual work — the AI call is the e
 - **Production** — Stripe, Resend, Sentry, NextAuth, next-intl, Docker, Vercel
 - **Mobile** — Flutter, Riverpod
 
-## Public repositories
-
-[`Academy`](https://github.com/DeriaL/Academy) — VECTRA ACADEMY, WebGL landing ·
-[`airichlife`](https://github.com/DeriaL/airichlife) — AI automation platform ·
-[`aria-os`](https://github.com/DeriaL/aria-os) — Supabase app shell ·
-[`BOT_TRAINER`](https://github.com/DeriaL/BOT_TRAINER) — Telegram training bot ·
-[`Synelo-Hotel-Ryzlink`](https://github.com/DeriaL/Synelo-Hotel-Ryzlink) — booking front-end ·
-[`ArmaRep`](https://github.com/DeriaL/ArmaRep) — site template
+## What I can show you
 
 > [!TIP]
-> 26 of my 32 repositories are private client and product work. Happy to walk
-> through any of it on a call — architecture and screenshots, without the code.
+> The code is closed, the work is not. On a call I can share architecture
+> diagrams, screen recordings of the admin panels and pipelines, the reasoning
+> behind the trade-offs, and a live walkthrough of any system above.
+> Take-home task or paired session also fine.
 
 ## Activity
+
+The graph below counts private commits, which is where nearly all of my work lives.
 
 <div align="center">
 
@@ -147,6 +162,7 @@ logged and re-runnable. That is most of the actual work — the AI call is the e
 
 **[gusarivan21@gmail.com](mailto:gusarivan21@gmail.com)** ·
 [LinkedIn](https://www.linkedin.com/in/ivan-husar) ·
-[Telegram](https://t.me/DeriaLL)
+[Telegram](https://t.me/DeriaLL) ·
+[Synelo Studio](https://www.synelostudio.com)
 
 </div>
