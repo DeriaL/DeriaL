@@ -1,6 +1,7 @@
-# Place at: .github/workflows/stats.yml
-# Needs repo secret STATS_TOKEN — classic PAT, scopes: read:user + repo
-# (repo scope is what makes private contributions countable)
+# .github/workflows/stats.yml
+# No secret needed: the account has "Include private contributions on my
+# profile" enabled, so exact per-day counts are public on
+# /users/<login>/contributions and the script reads them from there.
 
 name: Stats
 
@@ -33,7 +34,6 @@ jobs:
 
       - name: Render stats.svg and chart.svg
         env:
-          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
           GH_LOGIN: ${{ github.repository_owner }}
         run: node scripts/generate-stats.mjs
 
