@@ -1,154 +1,180 @@
 <!-- ═══════════════════════════════════════════════════════════════════
      PROFILE README  ·  github.com/DeriaL
      Repo: DeriaL/DeriaL — must stay PUBLIC or the profile renders blank.
-     Every other repo is private, so this file links to live products
+     Every other repo is private, so this links to live products
      instead of source. No Actions, no tokens, nothing that can break.
      ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:3B82F6,100:8B5CF6&height=170&section=header&text=Ivan%20Husar&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Fullstack%20Developer%20%C2%B7%20AI%20Automation%20%C2%B7%20Prague&descAlignY=60&descSize=16"
-  alt="Ivan Husar — Fullstack Developer, AI Automation"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:3B82F6,100:8B5CF6&height=170&section=header&text=Ivan%20Husar&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Founder%20%26%20AI%20Engineer%20%C2%B7%20Synelo%20Studio%20%C2%B7%20Prague&descAlignY=60&descSize=15"
+  alt="Ivan Husar — Founder and AI Engineer at Synelo Studio, Prague"
   width="100%"
 />
 
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Founder-8B5CF6?style=flat-square&logo=rocket&logoColor=white" alt="Founder"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
 <img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API"/>
-<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" alt="Three.js"/>
+<img src="https://img.shields.io/badge/EU%20AI%20Act-003399?style=flat-square&logo=europeanunion&logoColor=white" alt="EU AI Act"/>
+<img src="https://img.shields.io/badge/Made%20in-Czechia%20🇨🇿-D7141A?style=flat-square" alt="Made in Czechia"/>
 
 </div>
 
-I build **AI-driven products that have to make money** — not demos. Over the last
-year that meant a commercial security scanner with real billing, a four-system
-growth platform that finds leads and reports its own unit economics, and a course
-product selling into the Czech market.
+**Founder & AI Engineer at [Synelo Studio](https://www.synelostudio.com)** —
+production AI for European businesses. Based in Prague.
 
-Mostly **Next.js + TypeScript**, **Claude API** for the reasoning layer,
-**Supabase / Postgres** underneath, and **Three.js** when the interface is the pitch.
+I run three products at once, solo — an AI development studio, a security scanner
+and a consumer app. No team, no round, no investors. AI is the leverage that makes
+that arithmetic work, and the three feed each other: a lead-routing pattern built
+for a studio client on Monday becomes a feature in the consumer app by Wednesday.
 
 > [!NOTE]
-> **Available for fullstack and AI automation work** — Prague or remote,
-> full-time or project-based. Reach me at **gusarivan21@gmail.com**.
+> **AI projects don't break because the model is bad. They break because the demo
+> was never the system.** Permissions, fallbacks, monitoring, human handoff, audit
+> trails, rollback — the boring parts. In production, the boring parts are the product.
 
-> [!IMPORTANT]
-> **My repositories are private.** All of it is commercial client and product
-> work, so the source stays closed. Instead of code, this page links to the
-> **things actually running in production** — and I'm glad to walk through
-> architecture, decisions and screen recordings on a call.
+## The three
 
-## What I've built
+| | What it is | Live |
+|---|---|---|
+| **Synelo Studio** | AI-native dev studio for European SMBs. Fixed price, fixed ship date, code yours on day one. | [synelostudio.com](https://www.synelostudio.com) |
+| **Bryxe** | Security and compliance scanner for AI-generated code. 4 detection layers, 7 EU frameworks. | [bryxe.app](https://bryxe.app) |
+| **DayriOS** | AI life OS — tasks, habits, finance and a coach that messages you every morning on Telegram. | [dayrioslife.com](https://dayrioslife.com) |
 
-### 🛡 Bryxe Shield
+Plus [**Synelo Academy**](https://synelo-academy.com) — teaching the same trade to
+the next cohort, CS/EN.
 
-Security and compliance scanner for AI-generated code — the problem nobody had
-three years ago and everybody has now.
+## 🏛 Synelo Studio
 
-**300+ security checks · 300,000+ CVEs · 7 EU compliance frameworks · one scan.**
-Four ways in: upload a ZIP, connect a GitHub repo, scan a live URL, or run the CLI.
-Out comes an OWASP-aligned report with CVE matches across every major ecosystem and
-AI-detected logic flaws that pattern matching cannot see.
+An independent EU studio that ships production AI systems in **5–21 days at a fixed
+price**, with EU AI Act, European Accessibility Act and NIS2 compliance built into
+every deliverable. **26 productised packages**, €490 to €29,990 — no discovery
+quarter, no hourly billing, no scope creep.
 
-Shipped as a real SaaS, not a side project: Stripe billing, transactional email,
-error tracking, migrations.
+**What I actually built to make that possible**
 
-`Next.js` · `Claude API` · `Prisma` · `Stripe` · `Resend` · `Sentry`
+- **AI Architect** — Claude-driven async intake. Client describes the pain, it asks
+  five sharp questions, matches 2–3 packages from the real catalog, freezes price and
+  ship date, generates the SOW PDF and mints the Stripe link. Two minutes, zero calls.
+- **Client portal** — a private hub per project: live kanban, one-click approvals from
+  the card, Telegram alerts on every status change, UI in 10 locales.
+- **AIRS** — free site scan with a **publicly published scoring formula**, benchmarked
+  against the client's sector.
+- **The SOW is 14 lines, not 14 pages.** Every line is a verifiable boolean:
+  *"agent responds in WhatsApp within 30s — true/false."*
 
-### ⚙️ Synelo — four systems and one command centre
+**Three pacts, signed into the contract — not marketing**
 
-An end-to-end growth platform I built for [Synelo Studio](https://www.synelostudio.com).
-Each part is a product; together they close the loop from stranger to paying client.
-
-| System | What it does |
+| Pact | Commitment |
 |---|---|
-| **Outreach** | Finds leads through Google Places across **12 niches × 10 Czech cities**, audits each site for weak signals — no GTM, no chat, no booking, missing alt tags — then has Claude write outreach that references what it actually found |
-| **Autopilot** | Generates visuals and per-network copy, routes them through review and approval, publishes to **Instagram, LinkedIn, Threads and X**. Runs on mock providers so the whole flow is demoable without a single API key |
-| **Marketing Machine** | Tracks every visitor step, surfaces where the funnel leaks, feeds a lead CRM, computes campaign unit economics, and runs an **AI analyst every three hours** |
-| **Command Centre** | One dashboard over all four: cross-system funnel, unified event feed, per-project KPIs and an AI briefing — replacing four separate Telegram streams |
+| **01 · On time or 50% back** | Miss the deploy date locked in the SOW and half the fee is refunded automatically |
+| **02 · Day-one IP transfer** | Code, infra and keys in the client's accounts from hour one. If they can't export something in 30 seconds, that's a violation |
+| **03 · 14-day care window** | Unlimited fixes after go-live, included. Retainers stay optional — production access is never held hostage |
 
-`Next.js 15` · `Claude API` · `Gemini` · `Supabase` · `Google Places` · `next-intl`
+### Selected client outcomes
 
-### 🎓 [Synelo Academy](https://synelo-academy.com) · live
+Every number below is from a shipped system, not a pitch deck.
 
-Course product teaching an AI profession — sites, automations, content — sold into
-the Czech and EU market with a bilingual CS/EN funnel.
+| Client | Result | Shipped | Stack |
+|---|---|---|---|
+| **Claims Triage AI** · Swiss insurer | First-notice triage **8 h → 3 min**, regulator-grade audit log | 21 days | `Claude` `Python` `Airflow` |
+| **Nexa Logistics** · 3 depots | Morning dispatch **90 min → 12 min** | 21 days | `n8n` `Claude` `Telegram` |
+| **Valoria** · SaaS support | **74%** of tier-one tickets auto-closed | 6 days | `Claude` `Zendesk` `RAG` |
+| **OrthoDent Brno** · dental clinic | No-shows **−43%** in two months; 6 of 10 cancellations refilled same day | 5 days | `WhatsApp API` `Twilio` `Claude` |
+| **FixMaster CZ** · device repair | Lead → booked job **+62%**, agent books in UK/CZ/EN | 6 days | `Next.js` `Supabase` `Claude` |
+| **CourtTime Arena** · 11 courts | Off-peak occupancy **+22%**, pricing rules editable without a developer | 8 days | `Next.js` `Stripe` `Claude` |
+| **Salon Améa** · 6 stylists | **+31** recovered bookings/month from unanswered calls | 3 days | `WhatsApp API` `SMS` |
+| **CrewLink Mobile** · field crew | Dispatch → on-site **23 min → 7 min** | 14 days | `Expo` `React Native` `Supabase` |
 
-The landing is a WebGL experience: six tracks, six **procedurally generated** 3D
-scenes built from Three.js primitives, no paid assets and no downloaded models.
-Scroll drives a GSAP timeline through Lenis.
+## 🛡 Bryxe
 
-`react-three-fiber` · `drei` · `postprocessing` · `GSAP` · `Lenis`
+Legacy scanners look for syntax errors while AI generates whole attack chains. Bryxe
+is built for the code Cursor, Claude, v0, Lovable and Copilot actually ship.
 
-### 🏨 [Hotel Ryzlink](https://synelo-hotel-ryzlink.vercel.app) · live demo
+**Four detection layers, one scan, under a minute:**
 
-Concept prototype for a boutique hotel in Mikulov, built to show a real Czech
-client what AI automation looks like applied to their business — booking flow,
-packages, wine wellness, tastings, CS/EN.
+1. **Static patterns** — 350+ rules across 20+ languages, including a dedicated
+   *vibe-stack* pack: Supabase RLS, Next.js server actions, Stripe webhooks,
+   Vercel AI SDK, Clerk, Drizzle, Expo.
+2. **AST taint tracking + offensive AI** — real dataflow analysis on JS/TS via
+   `@babel/parser`, plus Claude primed as a senior offensive-security engineer
+   hunting chains: SSRF → IMDS → AWS takeover, IDOR → admin escalation,
+   prompt injection, OAuth flaws.
+3. **CVE matching** — 300,000+ CVEs via OSV.dev across npm, PyPI, Go, Maven,
+   Cargo, NuGet, RubyGems.
+4. **EU compliance grading** — GDPR, NIS2, EU AI Act, DORA, PCI DSS, SOC 2,
+   ISO 27001. 64 mapped requirements with article references.
 
-`Next.js` · `JavaScript` · `i18n`
+Then it fixes them: Claude generates minimal patches, you preview the diff, and it
+opens a PR — or **blocks the risky one from merging** as a required GitHub check.
+Output is audit-ready: PDF report, embeddable badge, article-by-article evidence.
 
-### 🧠 AIRichLife
+`Next.js` · `Claude API` · `Prisma` · `Stripe` · `Resend` · `Sentry` · `OSV.dev`
 
-AI business-automation platform aimed at European SMBs. 21 AI services, 7 demo
-types, an admin dashboard, **25-language i18n** and **624+ programmatic SEO pages** —
-built to be found, not just to exist.
+## 🌅 DayriOS
 
-`Next.js 16` · `TypeScript` · `Tailwind` · `TipTap` · `Framer Motion`
+Every planner waits for you to open it. This one comes to you — a Telegram digest
+each morning with the day's plan, and a nudge when you stall.
 
-## How the growth loop fits together
+Tasks with natural-language input, habits on Atomic Habits methodology, finance with
+receipt scanning and bank-PDF import, voice notes with transcription, brain-dump that
+sorts chaos into tasks, and **Life X-Ray** — burnout prediction from 90 days of your
+own data. Free tier forever; Plus €18/mo, Pro €29/mo.
 
-Not a diagram of an idea — this is what the Synelo systems actually do:
+`Next.js` · `Supabase` · `Claude API` · `Telegram Bot API`
+
+## How the studio actually delivers
 
 ```mermaid
 flowchart LR
-    PLACES[("Google Places<br/>12 niches x 10 cities")] --> AUDIT["Site audit:<br/>GTM, chat, booking, alt"]
-    AUDIT --> MAIL{{"Claude:<br/>write the outreach"}}
-
-    BRIEF["Visual + copy<br/>per network"] --> APPROVE["Review / approve"]
-    APPROVE --> PUB["IG · LinkedIn · Threads · X"]
-
-    MAIL --> TRACK["Visitor tracking"]
-    PUB --> TRACK
-    TRACK --> FUNNEL["Funnel + leak points"]
-    FUNNEL --> CRM[("Lead CRM")]
-    CRM --> ECON["Campaign unit economics"]
-    ECON --> ANALYST{{"AI analyst<br/>every 3 hours"}}
-    ANALYST --> CC[/"Command Centre"/]
-    CC -. "what to fix next" .-> BRIEF
+    SCAN["Free site scan<br/>public AIRS formula"] --> ARCH{{"AI Architect<br/>Claude · 5 questions"}}
+    ARCH --> MATCH["Match 2-3 packages<br/>from the 26-item catalog"]
+    MATCH --> SOW["SOW: 14 boolean lines<br/>price + ship date frozen"]
+    SOW --> PAY[/"Stripe link · 50% deposit"/]
+    PAY --> BUILD["Senior engineers x AI agents<br/>5-21 days · daily staging"]
+    BUILD --> HAND[("Handover: code, infra,<br/>keys, IP — client's accounts")]
+    HAND --> CARE["14 days unlimited fixes"]
+    BUILD -. "miss the date, 50% refunded" .-> PAY
 ```
 
-Every arrow is somewhere things break in production, so each step is idempotent,
-logged and re-runnable. That is most of the actual work — the AI call is the easy part.
-
-## Also built
-
-- **koval-coach** — coaching platform: NextAuth, Prisma on Neon Postgres, before/after progress slider, QR onboarding
-- **aria-os · dayri-app** — React + Vite apps on Supabase with TanStack Query, zustand, react-hook-form + zod, in-browser PDF parsing
-- **TravelProject** — Flutter travel app: Riverpod, go_router, Supabase, MapLibre GL
-- **Telegram bots** — training and coaching flows: onboarding, bookings, reminders, client history
+No discovery calls, no billable research months. Scope, price and date freeze at
+signature — which only works because the catalog is real and the SOW is falsifiable.
 
 ## Stack
 
-- **Core** — TypeScript, JavaScript, Python, Dart
-- **Frontend** — Next.js, React, Vite, Tailwind, Radix, Framer Motion
-- **3D** — Three.js, react-three-fiber, drei, postprocessing, GSAP, Lenis
-- **AI** — Claude API, Gemini, prompt pipelines, scheduled AI analysis
-- **Data** — Supabase, PostgreSQL, Prisma, Neon
-- **Production** — Stripe, Resend, Sentry, NextAuth, next-intl, Docker, Vercel
-- **Mobile** — Flutter, Riverpod
+Boring infrastructure, sharp edges — tools picked to outlive the hype cycle.
 
-## What I can show you
+- **Edge** — Vercel, Cloudflare (WAF, R2)
+- **Product** — Next.js (App Router, RSC, streaming), TypeScript, Tailwind, Framer Motion
+- **AI & agents** — Claude / GPT / Gemini, Vercel AI SDK, LangGraph, Inngest, pgvector
+- **Data & auth** — Supabase (Postgres, RLS, realtime), Drizzle, Prisma, Neon, Upstash Redis
+- **Observability & ops** — Sentry, Axiom, Stripe, GitHub Actions
+- **Mobile** — React Native + Expo, Flutter + Riverpod
+- **3D & motion** — Three.js, react-three-fiber, drei, postprocessing, GSAP, Lenis
+- **Also** — Python, Airflow, n8n, Docker, C++
+
+## Compliance, by default
+
+Every deliverable ships mapped to **EU AI Act (Annex IV)**, **European Accessibility
+Act / WCAG 2.1 AA**, **NIS2 (Art. 21)**, **ISO 27001:2022**, **NIST AI RMF 1.0** and
+**SOC 2 Type II** controls, with GDPR Art. 28 processing agreements and EU hosting.
+Synelo is an independent technical studio, not a Notified Body — we prepare the
+technical file, the client signs their own declaration.
+
+> [!IMPORTANT]
+> **My repositories are private** — all of it is commercial client and product work.
+> The links above go to the things running in production instead. Happy to walk
+> through architecture, screen recordings and trade-offs on a call.
 
 > [!TIP]
-> The code is closed, the work is not. On a call I can share architecture
-> diagrams, screen recordings of the admin panels and pipelines, the reasoning
-> behind the trade-offs, and a live walkthrough of any system above.
-> Take-home task or paired session also fine.
+> **Studio has capacity for new engagements** — fixed price, fixed date, from €490.
+> I'm also open to senior engineering / AI architecture roles and to partnerships
+> where the two sides compound.
 
 ## Activity
 
-The graph below counts private commits, which is where nearly all of my work lives.
+Nearly all of my work lives in private repositories; the graph counts those commits.
 
 <div align="center">
 
@@ -163,6 +189,6 @@ The graph below counts private commits, which is where nearly all of my work liv
 **[gusarivan21@gmail.com](mailto:gusarivan21@gmail.com)** ·
 [LinkedIn](https://www.linkedin.com/in/ivan-husar) ·
 [Telegram](https://t.me/DeriaLL) ·
-[Synelo Studio](https://www.synelostudio.com)
+[hello@synelostudio.com](mailto:hello@synelostudio.com)
 
 </div>
