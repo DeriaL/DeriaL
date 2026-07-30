@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Ivan Husar — Founder and AI Engineer at Synelo Studio, Prague">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Ivan Husar — AI automation, AI systems and web development, Prague">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#22D3EE"/>
@@ -22,7 +22,8 @@
   <path d="M0 158 C 170 128, 320 190, 470 164 C 640 134, 780 194, 940 170 C 1050 154, 1130 176, 1200 164 L1200 200 L0 200 Z" fill="#ffffff" fill-opacity="0.10"/>
 
   <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
-    <text x="600" y="92" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="0.5">Ivan Husar</text>
-    <text x="600" y="126" font-size="17" font-weight="500" fill="#ffffff" fill-opacity="0.88" letter-spacing="1.1">Founder &amp; AI Engineer &#183; Synelo Studio &#183; Prague</text>
+    <text x="600" y="90" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="0.5">Ivan Husar</text>
+    <text x="600" y="124" font-size="18" font-weight="600" fill="#ffffff" fill-opacity="0.92" letter-spacing="2.2">AI AUTOMATION &#183; AI SYSTEMS &#183; WEB</text>
+    <text x="600" y="147" font-size="13" font-weight="400" fill="#ffffff" fill-opacity="0.72" letter-spacing="1.4">Production AI for European business &#183; Prague</text>
   </g>
 </svg>
