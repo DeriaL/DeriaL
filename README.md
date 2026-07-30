@@ -7,7 +7,7 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:3B82F6,100:8B5CF6&height=170&section=header&text=Ivan%20Husar&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Fullstack%20Developer%20%C2%B7%20AI%20Automation&descAlignY=60&descSize=16"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:3B82F6,100:8B5CF6&height=170&section=header&text=Ivan%20Husar&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Fullstack%20Developer%20%C2%B7%20AI%20Automation%20%C2%B7%20Prague&descAlignY=60&descSize=16"
   alt="Ivan Husar — Fullstack Developer, AI Automation"
   width="100%"
 />
@@ -25,8 +25,8 @@ TypeScript and Next.js, with Three.js when the interface needs to be
 remembered, and Python for the parts that run unattended.
 
 > [!NOTE]
-> **Available for fullstack and AI automation work** — remote, full-time or project-based.
-> Reach me at **gusarivan21@gmail.com**.
+> **Available for fullstack and AI automation work** — Prague or remote,
+> full-time or project-based. Reach me at **gusarivan21@gmail.com**.
 
 ## What I'm building
 
@@ -90,7 +90,7 @@ idempotent and observable. That is most of the actual work.
 
 ## Also public
 
-[`aria-os`](https://github.com/DeriaL/aria-os) — AI assistant as a browser-based OS shell ·
+[�aria-os`](https://github.com/DeriaL/aria-os) — AI assistant as a browser-based OS shell ·
 [`BOT_TRAINER`](https://github.com/DeriaL/BOT_TRAINER) — Telegram training bot ·
 [`Synelo-Hotel-Ryzlink`](https://github.com/DeriaL/Synelo-Hotel-Ryzlink) — booking front-end ·
 [`ArmaRep`](https://github.com/DeriaL/ArmaRep) — site template
@@ -107,7 +107,8 @@ idempotent and observable. That is most of the actual work.
 
 <div align="center">
 
-**[gusarivan21@gmail.com](mailto:gusarivan21@gmail.com)**
-<!-- add once you send them: · [LinkedIn](https://linkedin.com/in/HANDLE) · [Telegram](https://t.me/HANDLE) · [Portfolio](https://SITE) -->
+**[gusarivan21@gmail.com](mailto:gusarivan21@gmail.com)** ·
+[LinkedIn](https://www.linkedin.com/in/ivan-husar) ·
+[Telegram](https://t.me/DeriaLL)
 
 </div>
