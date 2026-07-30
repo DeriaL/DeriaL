@@ -135,7 +135,7 @@ const DEFS = `
     </radialGradient>
   </defs>`;
 
-function statsSvg(s) {
+export function statsSvg(s) {
   const cells = [
     [fmt(s.allTime), 'TOTAL CONTRIBUTIONS'],
     [fmt(s.yearTotal), 'LAST 12 MONTHS'],
@@ -165,7 +165,7 @@ ${DEFS}
 `;
 }
 
-function chartSvg(s) {
+export function chartSvg(s) {
   const W = 1200, H = 300;
   const padL = 58, padR = 26, padT = 64, padB = 46;
   const plotW = W - padL - padR, plotH = H - padT - padB;
@@ -210,7 +210,10 @@ ${DEFS}
 `;
 }
 
-const s = await collect();
-writeFileSync('stats.svg', statsSvg(s));
-writeFileSync('chart.svg', chartSvg(s));
-console.log(JSON.stringify({ ...s, months: undefined, busiest: s.busiest }, null, 2));
+// run as a script, not when imported
+if (process.argv[1] && process.argv[1].endsWith('generate-stats.mjs')) {
+  const s = await collect();
+  writeFileSync('stats.svg', statsSvg(s));
+  writeFileSync('chart.svg', chartSvg(s));
+  console.log(JSON.stringify({ ...s, months: undefined, busiest: s.busiest }, null, 2));
+}
