@@ -148,7 +148,7 @@ whether a feature is allowed to go live at all.
 <div align="center">
 
 <img
-  src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/stats.svg?v=2"
+  src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/stats.svg?v=3"
   alt="Contributions all time and over the last year, active days, longest streak, busiest day"
   width="100%"
 />
@@ -156,7 +156,7 @@ whether a feature is allowed to go live at all.
 <br/><br/>
 
 <img
-  src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/chart.svg?v=2"
+  src="https://raw.githubusercontent.com/DeriaL/DeriaL/main/chart.svg?v=3"
   alt="Contributions per month over the last twelve months"
   width="100%"
 />
